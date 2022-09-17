@@ -47,7 +47,7 @@ export default function LoginPage() {
               >
                 <Checkbox>Remember me</Checkbox>
                 <Link href="/login/forgotpassword">
-                  <Text color={"blue.400"}>Forgot password?</Text>
+                  <a style={{ color: "blueviolet" }}>Forgot password?</a>
                 </Link>
               </Stack>
               <Button
@@ -61,7 +61,7 @@ export default function LoginPage() {
               </Button>
             </Stack>
             <Link href="/login/registration">
-              <Text color={"blue.400"}>Create An Account</Text>
+              <a style={{ color: "blueviolet" }}>Create An Account</a>
             </Link>
           </Stack>
         </Box>
